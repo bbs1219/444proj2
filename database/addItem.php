@@ -18,7 +18,7 @@ try {
 		"itemCategory" => $_POST["itemCategory"]
 	];
 	$result = $col->insertOne($document);
-	echo "<h3>successfully added item!</h3>\n<h3>Rows affected: {$result->getInsertedCount()}</h3>\n<a href='../addItem.php'>Go back</a>";
+	echo "<h3>successfully added item!</h3>\n<h3>Rows affected: {$result->getInsertedCount()}</h3>\n<a href='../addItem.html'>Go back</a>";
 } catch (Exception $e) {
-    echo "<h3>Could not add item!</h3>\n<h3>{$e->getMessage()}</h3>\n<a href='../addItem.php'>Go back</a>";
+    echo "<h3>Could not add item!</h3>\n<h3>{$e->getMessage()}</h3>\n<a href='../addItem.html'>Go back</a>";
 }
