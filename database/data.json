@@ -1,0 +1,14 @@
+{
+	"item": [
+		{"itemID": 1001, "itemTypeID": 1, "itemCategoryID": 1},
+		{"itemID": 1002, "itemTypeID": 1, "itemCategoryID": 1},
+		{"itemID": 1003, "itemTypeID": 2, "itemCategoryID": 1},
+		{"itemID": 1004, "itemTypeID": 2, "itemCategoryID": 1},
+		{"itemID": 1005, "itemTypeID": 3, "itemCategoryID": 2},
+		{"itemID": 1006, "itemTypeID": 3, "itemCategoryID": 2},
+		{"itemID": 1007, "itemTypeID": 4, "itemCategoryID": 2},
+		{"itemID": 1008, "itemTypeID": 4, "itemCategoryID": 2},
+		{"itemID": 1009, "itemTypeID": 5, "itemCategoryID": 3},
+		{"itemID": 1010, "itemTypeID": 5, "itemCategoryID": 3}
+	]
+}

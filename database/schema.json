@@ -1,0 +1,50 @@
+{
+	"$jsonSchema": {
+		"title": "Record of item",
+		"description": "This document records the details of an item",
+		"type": "object",
+		"properties": {
+			"itemID": {
+				"description": "A unique identifier for an item",
+				"type": "number"
+			},
+			"itemType": {
+				"description": "The item's exact type",
+				"type": "object",
+				"properties": {
+					"itemTypeID": {
+						"description": "A unique identifier of an item's exact type",
+						"type": "number"
+					},
+					"itemCategory": {
+						"description": "The general category of the item",
+						"type": "object",
+						"properties": {
+							"itemCategoryID": {
+								"description": "A unique identifier of an item's general category",
+								"type": "number"
+							},
+							"itemCategoryName": {
+								"description": "A name of an item's general category",
+								"type": "string"
+							}
+						},
+						"required": [
+							"itemCategoryID",
+							"itemCategoryName"
+						]
+					}
+				},
+				"required": [
+					"itemTypeID",
+					"itemCategory"
+				]
+			}
+		},
+		"required": [
+			"itemID",
+			"itemType"
+		],
+		"additionalProperties": false
+	}
+}
